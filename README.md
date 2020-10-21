@@ -13,6 +13,11 @@ S3 → Lambda
 
 * Lambdaトリガ
   `s3://inspection-55/lambda-s3/input`へのPUTをトリガーとして設定
+  ```
+  イベントタイプ: ObjectCreatedByPut
+  バケット: s3/inspection-55
+  プレフィックス: lambda-s3/input/
+  ```
 
 * 下記にtestファイルをPUT  
   ```
