@@ -23,7 +23,9 @@ S3 → Lambda
   ```
   s3://inspection-55/lambda-s3/input
   ```
-  
+  `aws s3 sync ./s3 s3://inspection-55/lambda-s3/`
+
+
 * 出力結果  
   下記がCloudWatchLogsに出力される  
   ```
@@ -85,3 +87,18 @@ S3 → Lambda
 
 * プロジェクト  
   https://github.com/awsdocs/aws-lambda-developer-guide/tree/master/sample-apps/java-events-v1sdk
+
+
+## 設定イメージ
+
+
+* Lambda設定画面1  
+  ![Lambda設定画面1](https://raw.githubusercontent.com/awaduharatk/lambda-s3/main/img/Screenshot_s3put-Lambda_1.png "Lambda設定画面1")
+
+
+* Lambda設定画面2  
+  ![Lambda設定画面2](https://raw.githubusercontent.com/awaduharatk/lambda-s3/main/img/Screenshot_s3put-Lambda_2.png "Lambda設定画面2")
+
+* Lambda設定trigger  
+![Lambda設定trigger](https://raw.githubusercontent.com/awaduharatk/lambda-s3/main/img/Screenshot_s3put-Lambda_trigger.png "Lambda設定trigger")
+
